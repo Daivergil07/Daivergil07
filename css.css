@@ -3,12 +3,10 @@
 }
 
 body {
-   
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
-    display: flex;
     margin: 0;
 }
 
@@ -25,7 +23,6 @@ body {
     color: #fff;
 }
 
-
 .ctaa {
     display: block;
     padding: 20px 20px;
@@ -34,7 +31,6 @@ body {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    transition: background 0.3s;
 }
 
 .ctaa:hover {
@@ -42,30 +38,25 @@ body {
     color: #111;
 }
 
+
 .link {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
-    margin: 10px;
-    background-image: url(pink-floyd-7b7xb7yg0btttpzl.jpg);
-    
+    margin: 15px;
+    background-image: url(pink-floyd-7b7xb7yg0btttpzl.jpg);  
+    font-weight: bold;
     color: #fff;
     text-decoration: none;
-    border-radius: 10px;
-    transition: background 0.3s;
-}
-
-.link img {
-    margin-right: 8px;
+    border-radius: 8px;
 }
 
 .link:hover {
     background: #555;
 }
 
-
-.link-card {
+.link-card {   
     display: inline-block;
     width: 90%;
     margin: 20px;
@@ -73,25 +64,30 @@ body {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s;  
 }
 
 .link-card img {   
     width: 40%;
-    height: 50%;
     object-fit: cover;
     border-radius: 10px;
     border-radius: 50%;
 }
 
-.link-cad img {
-    float: inline-start;
-    position: inherit;
-    width: 18%;
-    height: 60%;
-    object-fit: cover;
-    border-radius: 50px;
+.link-cad {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
+
+.link-cad img {
+    justify-content: center;
+    align-items: center;
+    width: 13%; 
+    object-fit: cover;
+}
+
+
+
 
 
 
